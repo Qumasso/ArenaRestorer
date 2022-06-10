@@ -1,0 +1,13 @@
+main: com.github.qumasso.arenarestorer.RestorerPlugin
+name: ArenaRestorer
+version: 1.0
+api-version: 1.17
+commands:
+  setarena:
+    usage: /setarena <arena-name> <1 | 2>
+  deletearena:
+    usage: /deletearena <arena-name>
+  savearena:
+    usage: /savearena <arena-name>
+  restorearena:
+    usage: /restorearena <arena-name>
